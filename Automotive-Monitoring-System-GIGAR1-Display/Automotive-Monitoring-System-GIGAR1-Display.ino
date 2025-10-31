@@ -1,9 +1,28 @@
-void setup() {
-  // put your setup code here, to run once:
+#include <Arduino_CAN.h>
+
+void setup()
+{
+  Serial.begin(115200);
+  while (!Serial) { }
+
+  if (!CAN.begin(CanBitRate::BR_500k))
+  {
+    Serial.println("CAN.begin(...) failed.");
+    for (;;) {}
+  }
+}
+
+void loop()
+{
+CANBusData();
 
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
+void CANBusData(){
+    if (CAN.available())
+  {
+    CanMsg const msg = CAN.read();
+    Serial.println(msg);
+  }
 
 }
