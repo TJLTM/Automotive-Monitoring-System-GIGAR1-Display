@@ -5180,7 +5180,7 @@
 		(descr "SOT323 (SC-70)")
 		(tags "TVS Diode (Uni-directional)")
 		(property "Reference" "D1"
-			(at 3.075 0 0)
+			(at 3.075 0.215 0)
 			(layer "F.SilkS")
 			(uuid "f95c3b2b-3659-43f1-aa93-9cac2d036a4e")
 			(effects
@@ -6004,7 +6004,7 @@
 		(descr "TO220AB 2")
 		(tags "MOSFET (N-Channel)")
 		(property "Reference" "Q1"
-			(at 6.58 3 0)
+			(at 9.58 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "3e707c2b-6d81-49d0-82f4-2267afb5b803")
 			(effects
@@ -8962,6 +8962,90 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "ef0ee1ce-7ed7-4e9c-abb9-dc0926a9353e")
+	)
+	(gr_text "CL"
+		(at 105 78.5 0)
+		(layer "F.SilkS")
+		(uuid "25d37487-c6f4-4f0d-8ac3-0075bf064239")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "12V"
+		(at 105 71 0)
+		(layer "F.SilkS")
+		(uuid "305574bd-7bfd-4f37-b69d-334d98228f84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 105 73.5 0)
+		(layer "F.SilkS")
+		(uuid "89fe55f3-1b33-46bf-b41c-f000480e80f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "1 Amp"
+		(at 141 63.5 0)
+		(layer "F.SilkS")
+		(uuid "8d2f0ce3-d4de-4cfd-bde0-7b36564cb6a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "CH"
+		(at 105 76 0)
+		(layer "F.SilkS")
+		(uuid "b89b0c8c-e978-4f7d-b3ca-dff5bd6aebd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "AMS GIGA Display\nV 1.0 Rev A"
+		(at 170.5 65 0)
+		(layer "F.SilkS")
+		(uuid "c3057e88-d80e-4a71-910d-2fd520e389fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "120 Ohm Termination\nResistor Jumper"
+		(at 120.5 69.5 0)
+		(layer "F.SilkS")
+		(uuid "fab8330e-d8be-4fa6-866b-584000a07ef8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "ICSP"
 		(at 164.897 72.06 90)
